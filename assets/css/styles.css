@@ -132,15 +132,16 @@ button {
 
     .hero {
         justify-content: center;
+        height: 100vh;
     }
 
     .heroRight {
         width: 100%;
-        margin-top: 10vh;
+        margin-top: 5vh;
     }
 
     .logo {
-        margin-bottom: 15vh;
+        margin-bottom: 10vh;
     }
 
     .heroCard {
