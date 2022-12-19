@@ -88,7 +88,8 @@ input {
     border: none;
     border-bottom: 0.5px solid #3B8283;
     width: 90%;
-    background-color: transparent
+    background-color: transparent;
+    outline: none;
 }
 
 .forgot {
