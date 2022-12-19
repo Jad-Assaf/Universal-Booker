@@ -137,9 +137,12 @@ button {
     .heroRight {
         width: 100%;
         height: 100%;
+        margin-top: 10vh;
     }
 
     .heroCard {
+        width: 75%;
+        height: 10%;
         background-color: rgba(217, 217, 217);
     }
 
