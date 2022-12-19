@@ -29,8 +29,9 @@ body {
     width: 45vw;
 }
 
-h1 {
-    margin-bottom: 10%;
+.logo {
+    width: 50%;
+    height: 50%;
 }
 
 .heroCard {
