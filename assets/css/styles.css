@@ -72,6 +72,10 @@ h3 {
 
 .formButton {
     margin-bottom: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 label {
@@ -97,7 +101,6 @@ input {
 }
 
 button {
-    margin-left: 35%;
     width: 25%;
     padding: 5px;
     border-color: transparent;
@@ -133,7 +136,6 @@ button {
     .hero {
         justify-content: center;
         height: 100vh;
-        overflow-y: hidden;
     }
 
     .heroRight {
@@ -172,7 +174,6 @@ button {
         font-size: 12px;
         border-radius: 8px;
         width: 30%;
-        margin-left: 30%;
     }
 
     .createAccount {
@@ -180,10 +181,15 @@ button {
         border-radius: 5px;
         padding: 10px;
         margin-top: 10vh;
-        margin-bottom: 0;
     }
 
     .createAccount * {
         font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .heroCard {
+        height: 50vh;
     }
 }
