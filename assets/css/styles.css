@@ -133,6 +133,7 @@ button {
     .hero {
         justify-content: center;
         height: 100vh;
+        overflow-y: hidden;
     }
 
     .heroRight {
@@ -170,6 +171,8 @@ button {
     button {
         font-size: 12px;
         border-radius: 8px;
+        width: 30%;
+        margin-left: 30%;
     }
 
     .createAccount {
@@ -177,6 +180,7 @@ button {
         border-radius: 5px;
         padding: 10px;
         margin-top: 10vh;
+        margin-bottom: 0;
     }
 
     .createAccount * {
