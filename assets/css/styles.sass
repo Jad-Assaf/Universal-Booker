@@ -1,0 +1,222 @@
+*
+    padding: 0
+    margin: 0
+    box-sizing: border-box
+    transition: all 0.3s ease
+
+body
+    background-color: #F5EFEF
+    font-family: "Montserrat"
+
+.hero
+    display: flex
+    flex-direction: row
+
+    &Img
+        object-fit: cover
+        width: 55vw
+        height: 100vh
+        opacity: 75%
+
+    &Right
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+        width: 45vw
+
+.logo
+    width: 100px
+    height: 50px
+    margin-bottom: 10%
+
+.heroCard
+    display: flex
+    flex-direction: column
+    width: 65%
+    height: 60vh
+    margin-bottom: 5%
+    border: 0px solid #fff
+    box-shadow: 4px 6px 10px 6px rgba(0, 0, 0, 0.25)
+    border-radius: 5px
+    background-color: rgba(217, 217, 217, 0.2)
+
+h3
+    margin-top: 10px
+    margin-bottom: 20%
+    text-align: center
+
+.form
+    display: flex
+    flex-direction: column
+    margin-left: 10%
+    height: 100%
+    justify-content: space-evenly
+
+    &Inputs
+        flex: 2
+        display: flex
+        flex-direction: column
+        height: 100%
+        justify-content: space-evenly
+
+    &Button
+        margin-bottom: 10%
+        width: 90%
+        display: flex
+        align-items: center
+        justify-content: center
+
+label
+    font-size: 14px
+
+input
+    margin: 10px 0
+    padding: 3px
+    border: none
+    border-bottom: 0.5px solid #3B8283
+    width: 90%
+    background-color: transparent
+    outline: none
+
+.forgot
+    text-align: end
+    font-size: 12px
+    color: #3B8283
+    text-decoration: none
+    margin-right: 10%
+    margin-bottom: 30px
+
+button
+    width: 25%
+    padding: 5px
+    border-color: transparent
+    border-radius: 10px
+    box-shadow: 2px 3px 5px 1px rgba(0, 0, 0, 0.25)
+    background-color: #3B8283
+    color: #FFF
+
+.createAccount
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+
+    & a
+        margin-top: 10px
+        color: #3B8283
+        text-decoration: none
+
+@media screen and (max-width: 480px)
+
+    .heroImg
+        position: absolute
+        z-index: -999
+        width: 100vw
+        height: 100vh
+        opacity: 50%
+
+    .hero
+        justify-content: center
+        height: 100vh
+
+    // &Right
+    //     width: 100%
+    //     margin-top: 5vh
+
+    .logo
+        margin-bottom: 10vh
+
+    .heroCard
+        width: 75%
+        height: 40vh
+        background-color: rgba(217, 217, 217)
+
+    h3
+        font-size: 14px
+        margin-top: 5%
+
+    label
+        font-size: 12px
+
+    input
+        font-size: 10px
+
+    .forgot
+        font-size: 10px
+
+    button
+        font-size: 12px
+        border-radius: 8px
+        width: 30%
+
+    .createAccount
+        background-color: rgba(217, 217, 217)
+        border-radius: 5px
+        padding: 10px
+        margin-top: 10vh
+
+    // & *
+    //     font-size: 12px
+
+@media screen and (max-width: 320px)
+    .heroCard
+        height: 50vh
+
+@media screen and (min-width: 481px) and (max-width: 1200px)
+    .heroImg
+        position: absolute
+        z-index: -999
+        width: 100vw
+        height: 100vh
+        opacity: 50%
+
+    .hero
+        justify-content: center
+        height: 100vh
+
+    // &Right
+    //     width: 100%
+        /* margin-top: 5vh; */
+
+    .logo
+        margin-top: 10vh
+
+    .heroCard
+        width: 75%
+        height: 100vh
+        background-color: rgba(217, 217, 217)
+
+    h3
+        font-size: 24px
+        margin-top: 5%
+        margin-bottom: 10%
+
+    label
+        font-size: 16px
+
+    input
+        font-size: 14px
+
+    .forgot
+        font-size: 14px
+
+    button
+        font-size: 20px
+        border-radius: 8px
+        width: 130px
+        margin: 0
+
+    .createAccount
+        background-color: rgba(217, 217, 217)
+        border-radius: 5px
+        padding: 10px
+        margin-bottom: 10vh
+
+    // & *
+    //     font-size: 14px
+
+.raise:hover,
+.raise:focus
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover)
+    transform: translateY(-0.25em)
