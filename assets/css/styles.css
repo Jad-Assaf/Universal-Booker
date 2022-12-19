@@ -59,11 +59,13 @@ h3 {
 }
 
 .formInputs {
-/*     flex: 2; */
+    flex: 2;
+    display: flex;
+    flex-direction: column;
 }
 
 .formButton {
-/*     flex: 1; */
+    flex: 1;
 }
 
 label {
