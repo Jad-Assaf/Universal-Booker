@@ -9,6 +9,7 @@ body {
 }
 
 .navbar {
+  position: absolute;
   width: 5%;
   height: 100vh;
   display: flex;
@@ -45,4 +46,32 @@ body {
 
 .mainBtns button:first-child {
   background-color: #EB5205;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 10%;
+  height: 100vh;
+  width: 90%;
+}
+
+.categories {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  flex: 1;
+  margin-top: 10%;
+}
+
+.categories div {
+  width: 300px;
+}
+.categories div:first-child {
+  width: 660px;
+  margin: 0;
 }/*# sourceMappingURL=userUIHome.css.map */
